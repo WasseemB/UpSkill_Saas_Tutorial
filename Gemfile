@@ -27,6 +27,7 @@ gem 'jbuilder', '2.5.0'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'bootstrap-sass','3.3.7'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
@@ -34,7 +35,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
 end
-
+#Use Twitter BootStrap Library for FrontEnd Ui and Layout
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
