@@ -36,6 +36,10 @@ h1,h2,h3 {
 .navbar {
     border:none;
 }
+.navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
 
 .navbar-default .navbar-brand,.navbar-default .navbar-nav > li > a {
     color:white;
